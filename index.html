@@ -6,29 +6,16 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 		<meta name="theme-color" content="#000">
 		<meta name="robots" content="index, follow">
+		<link rel="canonical" href="index.html">
+		<link rel="manifest" href="manifest.webmanifest.json">
 		<link rel="apple-touch-icon" href="assets/img/favicon.jpg">
 		<link rel="shortcut icon" type="image/png" href="assets/img/favicon.jpg">
 		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 		<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
 		<link rel="stylesheet" type="text/css" href="assets/css/et-line.css">
-		<script src="assets/js/jquery-2.1.0.js" defer></script>
-		<script src="assets/js/bootstrap.js" defer></script>
-		<script src="assets/js/blocs.js" defer></script>
-		<script src="assets/js/jquery.touchSwipe.js" defer></script>
-		<script src="assets/js/gmaps.js" defer></script>
-		<script src="assets/js/formHandler.js" defer></script>
 		<title>La Chouette Agence - Web Design à Lyon</title>
-		<!-- Global site tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-164136332-1"></script>
-		<script>
-			window.dataLayer = window.dataLayer || [];
-			function gtag(){dataLayer.push(arguments);}
-			gtag('js', new Date());
-			gtag('config', 'UA-164136332-1');
-		</script>
-		<!-- Analytics END -->
-    </head>
+	</head>
 	<body>
 		<!-- Principal conteneur -->
 		<main>
@@ -37,8 +24,8 @@
 				<div class="container bloc-sm">
 					<nav class="navbar row">
 						<div class="navbar-header">
-							<a class="navbar-brand" href="index.html" tabindex="0">
-								<img src="assets/img/la-chouette-agence.png" alt="Logo La Chouette Agence - Accueil" role="link" class="tab_focus1"/>
+							<a class="navbar-brand" href="index.html" tabindex="0" id="logo_header">
+								<img src="assets/img/la-chouette-agence.png" alt="Logo La Chouette Agence - Accueil" aria-label="Accueil"/>
 							</a>
 							<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
 								<span class="sr-only">Toggle navigation</span>
@@ -250,7 +237,7 @@
 							</ul>
 						</div>
 						<div class="row col-sm-4">
-							Partenaires
+							<h6>Partenaires</h6>
 							<ul>
 								<li><a href="https://www.lyon.fr/">Ville de Lyon</a></li>
 								<li><a href="https://www.auvergnerhonealpes.fr/">Région Rhône-Alpes</a></li>
@@ -259,7 +246,7 @@
 							</ul>
 						</div>
 						<div class="row col-sm-4">
-							Le Web design
+							<h6>Le Web design</h6>
 							<ul>
 								<li><a href="https://www.webdesign-inspiration.com/fr/">Web Design Inspiration</a></li>
 								<li><a href="https://portfolio.lotincorp.biz/cest-quoi-le-design-web/">C'est quoi le Web Design ?</a></li>
@@ -268,7 +255,7 @@
 							</ul>
 						</div>
 						<div class="row col-sm-4">
-							Les entreprises et le Web
+							<h6>Les entreprises et le Web</h6>
 							<ul>
 								<li><a href="https://www.ovh.com/fr/web/">Démarrez votre projet Web</a></li>
 								<li><a href="https://www.e-monsite.com/pages/aides-creation-site/pourquoi-creer-site.html">Pourquoi créer un site web ?</a></li>
@@ -283,4 +270,19 @@
 		</main>
 		<!-- Principal conteneur END -->
 	</body>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-164136332-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'UA-164136332-1');
+	</script>
+	<!-- Analytics END -->
+	<script src="assets/js/jquery-2.1.0.js" defer></script>
+	<script src="assets/js/bootstrap.js" defer></script>
+	<script src="assets/js/blocs.js" defer></script>
+	<script src="assets/js/jquery.touchSwipe.js" defer></script>
+	<script src="assets/js/gmaps.js" defer></script>
+	<script src="assets/js/formHandler.js" defer></script>
 </html>
