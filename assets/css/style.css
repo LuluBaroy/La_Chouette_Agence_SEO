@@ -30,6 +30,10 @@ li{
 #button_bloc3{
     color: black;
 }
+#title_bloc4{
+    text-transform: none;
+    font-size: 23px;
+}
 #title_bloc2{
     text-transform: none;
     line-height: 30px;
@@ -53,8 +57,9 @@ blockquote p{
     font-size: 20px;
     line-height: 22px;
 }
-blockquote footer{
-    color: #575757;
+blockquote p:last-child{
+    font-style: normal;
+    font-size: 14px;
 }
 #button_bloc3 a{
     line-height: 40px;
