@@ -15,6 +15,50 @@ button {
 li{
     list-style: none;
 }
+#title_bloc3{
+    font-size: 20px;
+    text-transform: none;
+    line-height: 30px;
+    font-weight: normal;
+    color: black;
+}
+#title_bloc5 span{
+    position: relative;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+#button_bloc3{
+    color: black;
+}
+#title_bloc2{
+    text-transform: none;
+    line-height: 30px;
+    padding-bottom: 20px;
+    font-size: 22px;
+    font-weight: normal;
+    color: #665E81;
+}
+img .tabfocus1:focus{
+    margin: 2%;
+    box-shadow: 0 0 20px #000;
+}
+.tab_focus1:focus{
+    box-shadow: 0 0 20px #000000;
+}
+.tab_focus2:focus{
+    box-shadow: 0 0 20px #FFFFFF;
+}
+blockquote p{
+    font-style: italic;
+    font-size: 20px;
+    line-height: 22px;
+}
+blockquote footer{
+    color: #575757;
+}
+#button_bloc3 a{
+    line-height: 40px;
+}
 footer ul{
     padding-bottom: 50px;
 }
@@ -22,14 +66,8 @@ a:hover {
     text-decoration: none;
     cursor: pointer;
 }
-
-#page-loading-blocs-notifaction {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    width: 100%;
-    z-index: 100000;
-    background: #FFFFFF url("../img/pageload-spinner.gif") no-repeat center center;
+#bloc-8 .fa, #bloc-8 p{
+    color: #000;
 }
 
 .bloc {
@@ -655,7 +693,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #000!important;
 }
 
 .container {
@@ -691,7 +729,6 @@ p {
 
 .h1 {
     font-size: 20px;
-    font-family: "Open Sans";
 }
 
 .cta-hero {
@@ -757,7 +794,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: #687B7C;
     padding: 40px 40px 40px 40px;
 }
 
@@ -779,17 +816,17 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #171717!important;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #FFFFFF!important;
+    color: #171717!important;
 }
 
 .ltc-white {
@@ -826,7 +863,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("../img/image-de-presentation.bmp");
+    background-image: url("../img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
