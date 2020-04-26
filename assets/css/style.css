@@ -25,7 +25,7 @@ address p{
 }
 address span{
     text-decoration: underline dotted;
-    font-size: 16px;
+    font-size: 1em;
     font-weight: bold;
 }
 .footer_links li{
