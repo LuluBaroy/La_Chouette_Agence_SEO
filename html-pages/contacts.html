@@ -17,12 +17,12 @@
 		<title>La Chouette Agence - Web Design à Lyon - Contact</title>
 	</head>
 	<body>
-		<!-- Principal conteneur -->
-		<main class="page-container">
-			<!-- bloc-0 -->
-			<nav class="bloc bgc-white l-bloc " id="bloc-0">
+		<!-- Principal container -->
+		<main class="page-container" role="main">
+			<!-- Header - Nav -->
+			<header class="bloc bgc-white l-bloc " id="bloc-0">
 				<div class="container bloc-sm">
-					<div class="navbar row">
+					<nav class="navbar row">
 						<div class="navbar-header">
 							<a class="navbar-brand logo_header" aria-label="Retour page accueil" href="../index.html" tabindex="0">
 								<img src="../assets/img/la-chouette-agence.png" alt="Logo La Chouette Agence"/>
@@ -44,13 +44,13 @@
 								</li>
 							</ul>
 						</div>
-					</div>
+					</nav>
 				</div>
-			</nav>
-			<!-- bloc-0 END -->
+			</header>
+			<!-- Header - Nav END -->
 
-			<!-- bloc-6 -->
-			<div class="bloc bgc-atomic-tangerine bg-repeat d-bloc bloc-bg-texture texture-paper" id="bloc-6">
+			<!-- Banner -->
+			<section role="banner" class="bloc bgc-atomic-tangerine bg-repeat d-bloc bloc-bg-texture texture-paper" id="banner_contacts">
 				<div class="container bloc-lg">
 					<div class="row">
 						<div class="col-sm-12">
@@ -64,108 +64,95 @@
 						</div>
 					</div>
 				</div>
-			</div>
-			<!-- bloc-6 END -->
+			</section>
+			<!-- Banner END -->
 
-			<!-- bloc-7 -->
-			<div class="bloc bgc-white l-bloc" id="bloc-7">
+			<!-- Contacts -->
+			<section role="document" class="bloc bgc-white l-bloc" id="contacts">
 				<div class="container bloc-lg">
-					<div class="row">
-						<div class="col-sm-6">
-							<form id="form_1" method="post" role="form" novalidate>
-								<div class="form-group">
-									<label for="name">
-										Nom
-									</label>
-									<input type="text" id="name" class="form-control" required />
-								</div>
-								<div class="form-group">
-									<label for="email">
-										Adresse email
-									</label>
-									<input id="email" class="form-control" type="email" required />
-								</div>
-								<div class="form-group">
-									<label for="input_504">
-										Comment nous avez-vous connu ?
-									</label>
-									<input required id="input_504" type="text" class="form-control"/>
-								</div>
-								<div class="form-group">
-									<label for="message">
-										Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-									</label>
-									<textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
-								</div>
-								<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine tab_focus2" type="submit">
-									Envoyer
-								</button>
-							</form>
-						</div>
-							<address class="col-sm-6 text-center">
-								<p><span>Adresse email</span><br/>
-								contact@lachouetteagence.com</p>
-								<p><span>Adresse</span><br/>
-								La Chouette Agence<br/>
-								2 place Sathonay<br/>
-								69001 Lyon</p>
-								<p><span>Horaires</span><br/>
-								Ouvert de 9h à 18h, du lundi au vendredi</p>
-							</address>
+					<div class="col-sm-6  row">
+						<form id="form_1" method="post" role="form" novalidate>
+							<div class="form-group">
+								<label for="name">
+									Nom
+								</label>
+								<input type="text" id="name" class="form-control" required />
+							</div>
+							<div class="form-group">
+								<label for="email">
+									Adresse email
+								</label>
+								<input id="email" class="form-control" type="email" required />
+							</div>
+							<div class="form-group">
+								<label for="input_504">
+									Comment nous avez-vous connu ?
+								</label>
+								<input required id="input_504" type="text" class="form-control"/>
+							</div>
+							<div class="form-group">
+								<label for="message">
+									Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
+								</label>
+								<textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+							</div>
+							<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine tab_focus2" type="submit">
+								Envoyer
+							</button>
+						</form>
+					</div>
+					<div class="row col-sm-6 text-center">
+						<h2>Contacts</h2>
+						<address>
+							<p><span>Adresse email</span><br/>
+							contact@lachouetteagence.com</p>
+							<p><span>Adresse</span><br/>
+							La Chouette Agence<br/>
+							2 place Sathonay<br/>
+							69001 Lyon</p>
+							<p><span>Horaires</span><br/>
+							Ouvert de 9h à 18h, du lundi au vendredi</p>
+						</address>
 					</div>
 				</div>
-			</div>
+			</section>
 			<!-- bloc-7 END -->
-
 			<!-- ScrollToTop Button -->
-			<button>
+			<button role="button">
 				<a aria-label="Haut de la page" class="bloc-button btn btn-d scrollToTop" id="chevron" tabindex="0" onclick="scrollToTarget('1')">
 					<span class="fa fa-chevron-up"></span>
 				</a>
 			</button>
 			<!-- ScrollToTop Button END-->
-
-
-			<!-- Footer - bloc-8 -->
-			<nav class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
+			<!-- Footer - Links -->
+			<footer class="bloc bgc-atomic-tangerine footer_links">
 				<div class="container bloc-sm">
 					<div class="row">
 						<div class="col-sm-12">
-							<p class="text-center">
+							<h4 class="text-center">
 								La chouette agence - Agence web basée à Lyon.<br>
-							</p>
-							<div class="row row-no-gutters social">
-								<div class="col-sm-3">
-									<div class="text-center">
-										<a class="social" href="../index.html" aria-label="Retrouvez-nous sur Twitter !"><span class="fa fa-twitter icon-md"></span></a>
-									</div>
-								</div>
-								<div class="col-sm-3">
-									<div class="text-center">
-										<a class="social" href="../index.html" aria-label="Retrouvez-nous sur Facebook !"><span class="fa fa-facebook icon-md"></span></a>
-									</div>
-								</div>
-								<div class="col-sm-3">
-									<div class="text-center">
-										<a class="social" href="../index.html" aria-label="Retrouvez-nous sur Dribbble"><span class="fa fa-dribbble icon-md"></span></a>
-									</div>
-								</div>
-								<div class="col-sm-3">
-									<div class="text-center">
-										<a class="social" href="../index.html" aria-label="Retrouvez-nous sur Instagram !"><span class="fa fa-instagram icon-md"></span></a>
-									</div>
-								</div>
-							</div>
+							</h4>
+							<ul class="row row-no-gutters social">
+								<li class="text-center col-sm-3">
+									<a class="social" href="../index.html" aria-label="Retrouvez-nous sur Twitter !"><span class="fa fa-twitter icon-md"></span></a>
+								</li>
+								<li class="text-center col-sm-3">
+									<a class="social" href="../index.html" aria-label="Retrouvez-nous sur Facebook !"><span class="fa fa-facebook icon-md"></span></a>
+								</li>
+								<li class="text-center col-sm-3">
+									<a class="social" href="../index.html" aria-label="Retrouvez-nous sur Dribbble"><span class="fa fa-dribbble icon-md"></span></a>
+								</li>
+								<li class="text-center col-sm-3">
+									<a class="social" href="../index.html" aria-label="Retrouvez-nous sur Instagram !"><span class="fa fa-instagram icon-md"></span></a>
+								</li>
+							</ul>
 						</div>
 					</div>
 				</div>
-			</nav>
-			<!-- Footer - bloc-8 END -->
-
+			</footer>
+			<!-- Footer - Links END -->
 		</main>
-		<!-- Principal conteneur END -->
-
-
+		<!-- Principal container END -->
 	</body>
 	<!-- Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-164136332-1"></script>
