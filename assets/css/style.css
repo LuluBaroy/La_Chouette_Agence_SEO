@@ -12,11 +12,13 @@ button {
     transition: all .3s ease-in-out;
     outline: none!important;
 }
-#presentations span{
+#banner_block span{
     text-shadow: 1px 1px 10px black, 1px 1px 10px black, 1px 1px 10px black, 1px 1px 10px black;
     color: #F3976C;
 }
-
+#header_nav_contacts li a{
+    color: black;
+}
 #network{
     list-style: none;
     padding: 10px 0 35px 0;
@@ -38,6 +40,14 @@ address span{
     font-size: 1em;
     font-weight: bold;
 }
+#footer_enterprise_identity{
+    font-size: 14px;
+    padding-bottom: 15px;
+}
+.footer_links span:hover, .footer_links span:focus{
+    transition: color ease-out 100ms;
+    color: #1b6d85;
+}
 .footer_links li{
     color: #212121;
 }
@@ -48,10 +58,9 @@ address span{
     padding: 16px;
     color: black;
 }
-.footer_links h6{
-    font-size: 15px;
-    text-decoration: underline;
-    text-decoration-style: dotted;
+.footer_links h3{
+    font-size: 14px;
+    text-transform: none;
     opacity: 0.8;
 }
 #title_bloc3{
@@ -87,7 +96,7 @@ address span{
 .logo_header{
     border-radius: 50px;
 }
-#logo_presentations{
+#logo_banner{
     border-radius: 50%;
     box-shadow: 1px 1px 20px black, 1px 1px 20px black, 1px 1px 20px black, 1px 1px 20px black;
 }
