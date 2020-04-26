@@ -28,13 +28,14 @@ address span{
     font-size: 16px;
     font-weight: bold;
 }
-#footer_links li{
+.footer_links li{
     color: #212121;
+    list-style: none;
 }
-#footer_links li a{
+.footer_links li a{
     padding: 16px;
 }
-#footer_links h6{
+.footer_links h6{
     font-size: 15px;
     text-decoration: underline;
     text-decoration-style: dotted;
