@@ -20,9 +20,9 @@
 		<!-- Principal conteneur -->
 		<main class="page-container">
 			<!-- bloc-0 -->
-			<div class="bloc bgc-white l-bloc " id="bloc-0">
+			<nav class="bloc bgc-white l-bloc " id="bloc-0">
 				<div class="container bloc-sm">
-					<nav class="navbar row">
+					<div class="navbar row">
 						<div class="navbar-header">
 							<a class="navbar-brand logo_header" aria-label="Retour page accueil" href="../index.html" tabindex="0">
 								<img src="../assets/img/la-chouette-agence.png" alt="Logo La Chouette Agence"/>
@@ -44,9 +44,9 @@
 								</li>
 							</ul>
 						</div>
-					</nav>
+					</div>
 				</div>
-			</div>
+			</nav>
 			<!-- bloc-0 END -->
 
 			<!-- bloc-6 -->
@@ -72,7 +72,7 @@
 				<div class="container bloc-lg">
 					<div class="row">
 						<div class="col-sm-6">
-							<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+							<form id="form_1" method="post" role="form" novalidate>
 								<div class="form-group">
 									<label for="name">
 										Nom
@@ -118,14 +118,16 @@
 			<!-- bloc-7 END -->
 
 			<!-- ScrollToTop Button -->
-			<a aria-label="Haut de la page" class="bloc-button btn btn-d scrollToTop" id="chevron" tabindex="0" onclick="scrollToTarget('1')">
-				<span class="fa fa-chevron-up"></span>
-			</a>
+			<button>
+				<a aria-label="Haut de la page" class="bloc-button btn btn-d scrollToTop" id="chevron" tabindex="0" onclick="scrollToTarget('1')">
+					<span class="fa fa-chevron-up"></span>
+				</a>
+			</button>
 			<!-- ScrollToTop Button END-->
 
 
 			<!-- Footer - bloc-8 -->
-			<div class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
+			<nav class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
 				<div class="container bloc-sm">
 					<div class="row">
 						<div class="col-sm-12">
@@ -157,7 +159,7 @@
 						</div>
 					</div>
 				</div>
-			</div>
+			</nav>
 			<!-- Footer - bloc-8 END -->
 
 		</main>
