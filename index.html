@@ -31,22 +31,22 @@
 		<!-- Principal container -->
 		<main>
 			<!-- Header - Nav -->
-			<header class="bloc bgc-white l-bloc navigation_block">
-				<div class="container bloc-sm">
+			<header class="bloc bgc-white l-bloc container">
+				<div class="bloc-sm">
 					<nav class="navbar row">
 						<div class="navbar-header">
 							<a class="navbar-brand logo_header" aria-label="Retour page d'accueil" href="index.html" tabindex="0">
-								<img src="assets/img/la-chouette-agence.png" alt="Logo La Chouette Agence - Accueil" aria-label="Accueil"/>
+								<img src="assets/img/la-chouette-agence.png" alt="Logo La Chouette Agence - Accueil" title="Logo La Chouette Agence" aria-label="Accueil"/>
 							</a>
-							<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
 								<span class="sr-only">Toggle navigation</span>
 								<span class="icon-bar"></span>
 								<span class="icon-bar"></span>
 								<span class="icon-bar"></span>
 							</button>
 						</div>
-						<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
-							<ul class="site-navigation nav navbar-nav align">
+						<div class="collapse navbar-1 navbar-collapse">
+							<ul class="site-navigation nav navbar-nav">
 								<li>
 									<a href="index.html" aria-label="Retour page d'accueil" class="tab_focus1">Accueil</a>
 								</li>
@@ -59,24 +59,22 @@
 				</div>
 			</header>
 			<!-- Header - Nav END -->
-
 			<!-- Banner -->
-			<section role="banner" class="bloc bgc-dark-slate-blue bg-banniere d-bloc bg-t-edge bloc-bg-texture b-parallax" id="banner_block">
-					<div class="container bloc-lg row tight-width-whitespace">
-						<div class="col-sm-12 text-center">
-							<img src="assets/img/logo.png" class="center-block image-resize-mode" alt="Logo La chouette agence" id="logo_banner"/>
-							<h1 class="hero-bloc-text tc-white ">
+			<section role="banner" class="bloc bg-banniere bg-t-edge b-parallax" id="banner_block">
+					<div class="bloc-lg row">
+						<div class="col-sm-12 text-center" id="title_banner">
+							<img src="assets/img/logo.png" class="center-block" alt="Logo La chouette agence" title="Logo Principal la Chouette Agence" id="logo_banner"/>
+							<h1>
 								<span>La chouette agence.</span>
 							</h1>
 						</div>
 					</div>
 			</section>
 			<!-- Banner END -->
-
 			<!-- Services -->
-			<section role="doc-part" class="container bloc-md bloc bgc-white l-bloc" id="services">
+			<section role="doc-part" class="bloc-md bloc bgc-white" id="services">
 				<div class="row">
-					<h2 class="col-sm-12 text-center" id="title_bloc2">
+					<h2 class="col-sm-12 text-center" id="title_services">
 						La chouette agence est une agence de web design qui aide<br/>
 						les entreprises à devenir attractives et visibles sur Internet.
 					</h2>
@@ -113,7 +111,7 @@
 						</p>
 					</div>
 				</div>
-				<footer class="row voffset-lg voffset">
+				<footer class="row">
 					<blockquote class="col-xs-12 col-md-8 col-md-offset-2 text-center">
 						<p>"La chouette agence est une excellente agence ! Les<br/>
 						web designers ont réussi à capturer l'essence de notre<br/>
@@ -124,12 +122,11 @@
 				</footer>
 			</section>
 			<!-- Services END -->
-
 			<!-- Motivations -->
-			<section role="doc-part" class="bloc tc-white bgc-atomic-tangerine bg-presentation d-bloc bloc-bg-texture b-parallax" id="motivations">
-				<div class="container bloc-lg">
-					<div class="row tight-width-whitespace black-background">
-						<h2 class="mg-md text-center col-sm-12" id="title_bloc3">
+			<section role="doc-part" class="bloc bg-presentation b-parallax" id="motivations">
+				<div class="bloc-lg">
+					<div class="row tight-width-whitespace" id="motivations_background">
+						<h2 class="mg-md text-center col-sm-12" id="title_motivations">
 							Nous souhaitons aider les entreprises de la région Lyonnaise à se développer et à connaître
 							le succès. Nous travaillons pour aider les entreprises locales à attirer de nouveaux clients .
 						</h2>
@@ -144,12 +141,11 @@
 				</div>
 			</section>
 			<!-- Motivations END -->
-
 			<!-- Realisations -->
-			<section role="doc-example" class="bloc bgc-white bg-lines-h2-bg bg-repeat l-bloc" id="realisations">
-				<div class="container bloc-lg">
+			<section role="doc-example" class="bloc bg-lines-h2-bg bg-repeat" id="realisations">
+				<div class="bloc-lg">
 					<header class="row">
-						<h2 class="col-sm-12 text-center" id="title_bloc4">
+						<h2 class="col-sm-12 text-center" id="title_realisations">
 							Nous travaillons avec beaucoup de clients,<br/>
 							voici nos réalisations.
 						</h2>
@@ -157,7 +153,7 @@
 					<section class="row tight-width-whitespace portfolio-row">
 						<div class="col-sm-6 text-center">
 							<a href="#" aria-label="Animation Portfolio de la chouette agence" data-lightbox="assets/img/1.jpg" data-gallery-id="gallery-1" data-caption="Refonte d'un site web pour un journal local" data-frame="snapshot-lb">
-								<img src="assets/img/1.jpg" alt="Site web journal" class="img-responsive portfolio-thumb" />
+								<img src="assets/img/1.jpg" alt="Site web journal" title="Site web journal" class="img-responsive portfolio-thumb" />
 							</a>
 							<h3 class="mg-md">
 								Refonte d'un site web pour un journal local
@@ -168,7 +164,7 @@
 						</div>
 						<div class="col-sm-6 text-center">
 							<a href="#" aria-label="Animation Portfolio de la chouette agence" data-lightbox="assets/img/2.jpg" data-gallery-id="gallery-1" data-caption="Création d'un site web pour photographes" data-frame="snapshot-lb">
-								<img src="assets/img/2.jpg" class="img-responsive portfolio-thumb" alt="Site web pour photographes" />
+								<img src="assets/img/2.jpg" title="Site web pour photographe" class="img-responsive portfolio-thumb" alt="Site web pour photographes" />
 							</a>
 							<h3 class="mg-md">
 								Création d'un site web pour photographes
@@ -181,7 +177,7 @@
 					<section class="row tight-width-whitespace portfolio-row">
 						<div class="col-sm-6 text-center">
 							<a href="#" aria-label="Animation Portfolio de la chouette agence" data-lightbox="assets/img/3.png" data-gallery-id="gallery-1" data-caption="Création d'un site internet pour un voyageur" data-frame="snapshot-lb">
-								<img src="assets/img/3.png" class="img-responsive portfolio-thumb" alt="Site web pour voyageur"/>
+								<img src="assets/img/3.png" title="Site web pour voyageur" class="img-responsive portfolio-thumb" alt="Site web pour voyageur"/>
 							</a>
 							<h3 class="mg-md">
 								Création d'un site internet pour un voyageur
@@ -192,7 +188,7 @@
 						</div>
 						<div class="col-sm-6 text-center">
 							<a href="#" aria-label="Animation Portfolio de la chouette agence" data-lightbox="assets/img/4.jpg" data-gallery-id="gallery-1" data-caption="Conception d'un site pour une agence de mariage" data-frame="snapshot-lb">
-								<img src="assets/img/4.jpg" class="img-responsive portfolio-thumb" alt="Site agence de mariage" />
+								<img src="assets/img/4.jpg" title="Site agence de mariage" class="img-responsive portfolio-thumb" alt="Site agence de mariage" />
 							</a>
 							<h3 class="mg-md">
 								Conception d'un site pour une agence de mariage
@@ -205,12 +201,11 @@
 				</div>
 			</section>
 			<!-- Realisations END -->
-
 			<!-- Contacts -->
-			<section role="doc-part" class="bloc bgc-dark-slate-blue bg-banniere d-bloc bloc-bg-texture" id="contacts">
-				<div class="container bloc-lg">
-					<div class="row text-center" id="title_bloc5">
-						<h2 class="mg-md tc-white">
+			<section role="doc-part" class="bloc bg-banniere" id="contacts">
+				<div class="bloc-lg">
+					<div class="row text-center" id="title_contacts">
+						<h2 class="mg-md">
 							Prêt pour redonner vie à votre projet ?<br>Contactez notre équipe !
 						</h2>
 						<div class="col-sm-12">
@@ -220,63 +215,59 @@
 				</div>
 			</section>
 			<!-- Contacts END -->
-
 			<!-- ScrollToTop Button -->
-			<a href="#" aria-label="Haut de la page" tabindex="0" class="bloc-button btn btn-d scrollToTop chevron" onclick="scrollToTarget('1')">
+			<a href="#" aria-label="Haut de la page" tabindex="0" class="btn btn-d scrollToTop chevron" onclick="scrollToTarget('1')">
 				<span class="fa fa-chevron-up"></span>
 			</a>
 			<!-- ScrollToTop Button END-->
-
 			<!-- Footer - Links -->
-			<footer role="doc-footnote" class="bloc bgc-atomic-tangerine footer_links">
-				<div class="container bloc-sm">
-					<div class="row col-sm-12">
-						<h2 class="text-center" id="footer_enterprise_identity">
-							La chouette agence - Agence web basée à Lyon.
-						</h2>
-						<div class="row row-no-gutters social">
-							<ul id="network">
-								<li class="text-center col-sm-3">
-									<a class="social" href="index.html" aria-label="Retrouvez-nous sur Twitter !"><span class="fa fa-twitter icon-md"></span></a>
-								</li>
-								<li class="col-sm-3 text-center">
-									<a class="social" href="index.html" aria-label="Retrouvez-nous sur Facebook !"><span class="fa fa-facebook icon-md"></span></a>
-								</li>
-								<li class="col-sm-3 text-center">
-									<a class="social" href="index.html" aria-label="Retrouvez-nous sur Dribbble !"><span class="fa fa-dribbble icon-md"></span></a>
-								</li>
-								<li class="col-sm-3 text-center">
-									<a class="social" href="index.html" aria-label="Retrouvez-nous sur Instagram !"><span class="fa fa-instagram icon-md"></span></a>
-								</li>
-							</ul>
-						</div>
-						<div class="col-sm-4 col-lg-4">
-							<h3>Partenaires</h3>
-							<ul>
-								<li><a href="https://www.lyon.fr/" aria-label="Partenaire Ville de Lyon">Ville de Lyon</a></li>
-								<li><a href="https://www.auvergnerhonealpes.fr/" aria-label="Partenaire Région Rhône-Alpes">Région Rhône-Alpes</a></li>
-								<li><a href="https://www.legalstart.fr/fiches-pratiques/business-plan/strategie-marketing/" aria-label="Partenaire Stratégie Marketing">Stratégie Marketing</a></li>
-								<li><a href="https://entreprise.pole-emploi.fr/accueil/homepage" aria-label="Partenaire Pôle Emploi">Pôle Emploi - Entreprises</a></li>
-							</ul>
-						</div>
-						<div class="col-sm-4 col-lg-4">
-							<h3>Le Web design</h3>
-							<ul>
-								<li><a href="https://www.webdesign-inspiration.com/fr/" aria-label="Site externe Web Design Inspiration">Web Design Inspiration</a></li>
-								<li><a href="https://portfolio.lotincorp.biz/cest-quoi-le-design-web/" aria-label="Site externe Portfolio - C'est quoi le web design?">C'est quoi le Web Design ?</a></li>
-								<li><a href="https://fr.wix.com/blog/2019/11/21/tendances-web-design-2020" aria-label="Site externe WIX - Tendances Web Design">Tendances Web design 2020</a></li>
-								<li><a href="https://www.blogduwebdesign.com/le-webdesign-definition-et-objectifs/" aria-label="Site externe Blog du Web design">Blog du Web design</a></li>
-							</ul>
-						</div>
-						<div class="col-sm-4 col-lg-4">
-							<h3>Les entreprises et le Web</h3>
-							<ul>
-								<li><a href="https://www.ovh.com/fr/web/" aria-label="Site externe OVH - Démarrez votre Projet Web">Démarrez votre projet Web</a></li>
-								<li><a href="https://www.e-monsite.com/pages/aides-creation-site/pourquoi-creer-site.html" aria-label="Site Externe E-monsite - Pourquoi créer un site web ?">Pourquoi créer un site web ?</a></li>
-								<li><a href="https://www.creerentreprise.fr/importance-site-internet-pour-une-entreprise/" aria-label="Site Externe Creerentreprise - Importance d'un site web pour une entreprise">L'importance de créer un site web</a></li>
-								<li><a href="https://www.webmarketing-conseil.fr/attirer-clients/" aria-label="Site Externe Webmarketing-conseil - Comment attirer des clients ?">Comment attirer des clients ?</a></li>
-							</ul>
-						</div>
+			<footer role="doc-footnote" class="bloc container-fluid bgc-atomic-tangerine footer_links">
+				<div class="row col-sm-12 bloc-sm">
+					<h2 class="text-center" id="footer_enterprise_identity">
+						La chouette agence - Agence web basée à Lyon.
+					</h2>
+					<div class="row row-no-gutters social">
+						<ul id="network">
+							<li class="text-center col-sm-3">
+								<a class="social" href="index.html" aria-label="Retrouvez-nous sur Twitter !"><span class="fa fa-twitter icon-md"></span></a>
+							</li>
+							<li class="col-sm-3 text-center">
+								<a class="social" href="index.html" aria-label="Retrouvez-nous sur Facebook !"><span class="fa fa-facebook icon-md"></span></a>
+							</li>
+							<li class="col-sm-3 text-center">
+								<a class="social" href="index.html" aria-label="Retrouvez-nous sur Dribbble !"><span class="fa fa-dribbble icon-md"></span></a>
+							</li>
+							<li class="col-sm-3 text-center">
+								<a class="social" href="index.html" aria-label="Retrouvez-nous sur Instagram !"><span class="fa fa-instagram icon-md"></span></a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-sm-4 col-lg-4">
+						<h3>Partenaires</h3>
+						<ul>
+							<li><a href="https://www.lyon.fr/" aria-label="Partenaire Ville de Lyon">Ville de Lyon</a></li>
+							<li><a href="https://www.auvergnerhonealpes.fr/" aria-label="Partenaire Région Rhône-Alpes">Région Rhône-Alpes</a></li>
+							<li><a href="https://www.legalstart.fr/fiches-pratiques/business-plan/strategie-marketing/" aria-label="Partenaire Stratégie Marketing">Stratégie Marketing</a></li>
+							<li><a href="https://entreprise.pole-emploi.fr/accueil/homepage" aria-label="Partenaire Pôle Emploi">Pôle Emploi - Entreprises</a></li>
+						</ul>
+					</div>
+					<div class="col-sm-4 col-lg-4">
+						<h3>Le Web design</h3>
+						<ul>
+							<li><a href="https://www.webdesign-inspiration.com/fr/" aria-label="Site externe Web Design Inspiration">Web Design Inspiration</a></li>
+							<li><a href="https://portfolio.lotincorp.biz/cest-quoi-le-design-web/" aria-label="Site externe Portfolio - C'est quoi le web design?">C'est quoi le Web Design ?</a></li>
+							<li><a href="https://fr.wix.com/blog/2019/11/21/tendances-web-design-2020" aria-label="Site externe WIX - Tendances Web Design">Tendances Web design 2020</a></li>
+							<li><a href="https://www.blogduwebdesign.com/le-webdesign-definition-et-objectifs/" aria-label="Site externe Blog du Web design">Blog du Web design</a></li>
+						</ul>
+					</div>
+					<div class="col-sm-4 col-lg-4">
+						<h3>Les entreprises et le Web</h3>
+						<ul>
+							<li><a href="https://www.ovh.com/fr/web/" aria-label="Site externe OVH - Démarrez votre Projet Web">Démarrez votre projet Web</a></li>
+							<li><a href="https://www.e-monsite.com/pages/aides-creation-site/pourquoi-creer-site.html" aria-label="Site Externe E-monsite - Pourquoi créer un site web ?">Pourquoi créer un site web ?</a></li>
+							<li><a href="https://www.creerentreprise.fr/importance-site-internet-pour-une-entreprise/" aria-label="Site Externe Creerentreprise - Importance d'un site web pour une entreprise">L'importance de créer un site web</a></li>
+							<li><a href="https://www.webmarketing-conseil.fr/attirer-clients/" aria-label="Site Externe Webmarketing-conseil - Comment attirer des clients ?">Comment attirer des clients ?</a></li>
+						</ul>
 					</div>
 				</div>
 			</footer>
