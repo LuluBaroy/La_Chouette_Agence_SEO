@@ -3,9 +3,9 @@
   "short_name": "La Chouette Agence",
   "theme_color": "#fefefe",
   "background_color": "#f3976c",
-  "display": "browser",
+  "display": "fullscreen",
   "Scope": "https://lulubaroy.github.io/La_Chouette_Agence_SEO/html-pages/contact.html",
-  "start_url": "https://lulubaroy.github.io/La_Chouette_Agence_SEO",
+  "start_url": "https://lulubaroy.github.io/La_Chouette_Agence_SEO/",
   "icons": [
     {
       "src": "assets/img/icons/icon-72x72.png",
