@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../La_Chouette_Agence/.idea/La_Chouette_Agence.iml" filepath="$PROJECT_DIR$/../La_Chouette_Agence/.idea/La_Chouette_Agence.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/La_Chouette_Agence_SEO.iml" filepath="$PROJECT_DIR$/.idea/La_Chouette_Agence_SEO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ohmyfood/.idea/Ohmyfood.iml" filepath="$PROJECT_DIR$/../ohmyfood/.idea/Ohmyfood.iml" />
     </modules>
   </component>
 </project>
