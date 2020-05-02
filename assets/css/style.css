@@ -118,7 +118,6 @@ header a{
     box-shadow: 0 1px 3px rgba(0, 0, 1, .25), inset 0 1px 0 0 rgba(255, 255, 255, .15);
 }
 .btn-d,.btn-d:hover,.btn-d:focus {
-    color: #FFF;
     background: rgba(0, 0, 0, .3);
 }
 .btn-dwn {
@@ -152,8 +151,10 @@ footer ul{
     box-shadow: 1px 1px 20px black, 1px 1px 20px black, 1px 1px 20px black, 1px 1px 20px black;
 }
 #banner_block span{
+    font-size: 1.3em;
     text-shadow: 1px 1px 10px black, 1px 1px 10px black, 1px 1px 10px black, 1px 1px 10px black;
     color: #F3976C;
+    background-color: rgba(0, 0, 0, 0.5);
     box-sizing: border-box;
 }
 #title_services{
@@ -277,7 +278,7 @@ a[data-lightbox]:hover img {
     background: none;
 }
 #title_contacts{
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.6);
     text-shadow: 1px 1px 20px black, 1px 1px 20px black, 1px 1px 20px black;
     padding: 2% 0 2% 0;
 }
@@ -348,6 +349,17 @@ form {
     padding: 2% 0 5% 0;
 }
 
+/*Accessibility page*/
+.accessibility{
+    word-wrap: break-word;
+    margin: 0 5% 5% 5%;
+}
+.accessibility h1{
+    padding-top: 5%;
+}
+.accessibility h1, h2, h3{
+
+}
 /*Class utils*/
 .b-parallax {
     background-attachment: scroll;
