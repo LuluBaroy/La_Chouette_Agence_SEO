@@ -357,9 +357,10 @@ form {
 .accessibility h1{
     padding-top: 5%;
 }
-.accessibility h1, h2, h3{
-
+.accessibility li{
+    list-style: none;
 }
+
 /*Class utils*/
 .b-parallax {
     background-attachment: scroll;
