@@ -1,2 +1,2 @@
 User-agent: *
-Disallow: /html-pages/page2.html
+Disallow: /https://lulubaroy.github.io/La_Chouette_Agence_SEO/index.html
