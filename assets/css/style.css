@@ -517,7 +517,7 @@ form {
         margin: 0;
     }
     .logo_header:focus, .logo_header:hover, .chevron:focus, .chevron:hover{
-        transform: scale(1.2);
+        transform: scale(1.05);
     }
     .links{
         margin-left: 25%;
